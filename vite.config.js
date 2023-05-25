@@ -14,7 +14,7 @@ export default defineConfig({
     ),
     qiankun('react-sub-app', {
       useDevMode
-    })
+    }),
   ],
   base: '//localhost:3000',
   server: {
